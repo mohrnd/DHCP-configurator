@@ -17,8 +17,7 @@ Got it! Here's an updated **README** for your **Remote Auto DHCP Server Configur
 ✅ **Graphical user interface (GUI) for easy setup**  
 
 ## **Requirements**  
-- **Linux-based remote machine** with SSH access  
-- **C++17 or later**  
+- **Linux-based remote machine** with root SSH access  
 - Required libraries:  
   - **libssh** (for SSH communication)  
   - **Qt** (for GUI)  
