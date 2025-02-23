@@ -1,7 +1,3 @@
-Got it! Here's an updated **README** for your **Remote Auto DHCP Server Configurator via SSH**, assuming it's written in **C++**:  
-
----
-
 # **DHCP Configurator**  
 
 ## **Overview**  
