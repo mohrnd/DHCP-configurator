@@ -18,21 +18,6 @@
   - **libssh** (for SSH communication)  
   - **Qt** (for GUI)  
 
-## **Installation**  
-### **1. Clone and Build the Project**  
-```bash
-git clone https://github.com/mohrnd/DHCP-configurator
-cd DHCP-configurator
-mkdir build && cd build
-cmake ..
-make
-```
-
-### **2. Run the Application**  
-```bash
-./dhcp-configurator
-```
-
 ## **Usage**  
 1. **Enter the remote machine details** (IP address, SSH credentials).  
 2. **Define DHCP settings**, such as:  
