@@ -24,23 +24,16 @@ Got it! Here's an updated **README** for your **Remote Auto DHCP Server Configur
   - **Qt** (for GUI)  
 
 ## **Installation**  
-### **1. Install Dependencies**  
-On **Ubuntu/Debian**, install the required libraries:  
+### **1. Clone and Build the Project**  
 ```bash
-sudo apt update
-sudo apt install libssh-dev qtbase5-dev isc-dhcp-server radvd
-```
-
-### **2. Clone and Build the Project**  
-```bash
-git clone https://github.com/yourrepo/dhcp-configurator.git
-cd dhcp-configurator
+git clone https://github.com/mohrnd/DHCP-configurator
+cd DHCP-configurator
 mkdir build && cd build
 cmake ..
 make
 ```
 
-### **3. Run the Application**  
+### **2. Run the Application**  
 ```bash
 ./dhcp-configurator
 ```
